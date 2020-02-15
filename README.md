@@ -5,8 +5,6 @@ Esse repositório foi criado com o propósito de manter os projetos **Java** de 
 > 
 > Os projetos são executas de acordo com as solicitações do professor. Portanto, podem haver maneiras melhores de implementações.
 
-| 
-|-
 ## A organização
 Os projetos desse repositório estão organizados da seguinte forma:
 
@@ -41,9 +39,6 @@ Na classe *Main* daquele projeto, haverá um método **run()** responsável por 
          2. Banco.java
          3. ContaBancaria.java
 
-|
-|-
-
 ## Como utilizar
 1. Baixe o repositório em sua máquina local
 2. Na classe Main.java (em **src\\**), execute o método **run()** do projeto desejado.
@@ -59,8 +54,7 @@ public class Main {
     }
 }
 ```
-|
-|---------------------------------
+
 ### Maiores informações
 **Lucas Samuel Kluser**  
 *Autor do repositório*  
