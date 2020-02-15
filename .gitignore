@@ -1,0 +1,8 @@
+# Ignora os arquivos da IDE
+.idea/
+*.iml
+out/
+
+# Ignora o diretório para arquivos temporários
+etc/
+temp/
