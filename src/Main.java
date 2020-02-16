@@ -1,5 +1,4 @@
 import listas.quarta.QuartaLista;
-import listas.terceira.TerceiraLista;
 import java.io.IOException;
 
 /**
