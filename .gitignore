@@ -6,3 +6,4 @@ out/
 # Ignora o diretório para arquivos temporários
 etc/
 temp/
+*.class
