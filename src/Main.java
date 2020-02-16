@@ -1,3 +1,4 @@
+import listas.quarta.QuartaLista;
 import listas.terceira.TerceiraLista;
 import java.io.IOException;
 
@@ -10,6 +11,6 @@ public class Main {
      */
     public static void main(String[] args) throws IOException {
         // Chame o método run() da lista/trabalho/prova desejada
-        TerceiraLista.run();
+        QuartaLista.run();
     }
 }
