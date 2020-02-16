@@ -55,7 +55,7 @@ public class Banco {
 
         if(!file.exists()) {
             if (!file.isDirectory()) {
-                File directory = new File("etc");
+                File directory = new File("temp");
                 directory.mkdir();
             }
 
