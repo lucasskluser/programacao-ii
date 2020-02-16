@@ -43,16 +43,18 @@ public class Arquivo {
      */
     public void copyTo(String path) throws IOException {
         File fileToCopy = new File(path);
+        FileInputStream fileInputStream = new FileInputStream(file);
+        FileOutputStream fileOutputStream = new FileOutputStream(fileToCopy);
 
         if(!fileToCopy.exists()) {
             fileToCopy.createNewFile();
         }
 
-        try (FileInputStream fileInputStream = new FileInputStream(file); FileOutputStream fileOutputStream = new FileOutputStream(fileToCopy)) {
+        try (BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream); BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream)) {
             int content;
             do {
-                content = fileInputStream.read();
-                fileOutputStream.write(content);
+                content = bufferedInputStream.read();
+                bufferedOutputStream.write(content);
             } while(content != -1);
         }
     }
