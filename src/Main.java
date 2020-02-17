@@ -1,4 +1,6 @@
 import listas.quarta.QuartaLista;
+import listas.sexta.SextaLista;
+
 import java.io.IOException;
 
 /**
@@ -10,6 +12,6 @@ public class Main {
      */
     public static void main(String[] args) throws IOException {
         // Chame o método run() da lista/trabalho/prova desejada
-        QuartaLista.run();
+        SextaLista.run();
     }
 }
