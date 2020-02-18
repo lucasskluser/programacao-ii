@@ -3,7 +3,7 @@ Esse repositório foi criado com o propósito de manter os projetos **Java** de 
 
 > [!NOTE]
 > 
-> Os projetos são executas de acordo com as solicitações do professor. Portanto, podem haver maneiras melhores de implementações.
+> Os projetos são executados de acordo com as solicitações do professor. Portanto, podem haver maneiras melhores de implementações.
 
 ## A organização
 Os projetos desse repositório estão organizados da seguinte forma:
